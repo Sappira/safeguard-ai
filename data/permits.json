@@ -1,0 +1,42 @@
+[
+  {
+    "permit_id": "PTW-2026-001",
+    "zone": "Zone-A-Coke-Oven",
+    "work_type": "HOT_WORK",
+    "issued_to": "Ravi Kumar",
+    "start_time": "08:00",
+    "end_time": "14:00",
+    "status": "ACTIVE",
+    "supervisor": "D. Narayana"
+  },
+  {
+    "permit_id": "PTW-2026-002",
+    "zone": "Zone-B-Blast-Furnace",
+    "work_type": "CONFINED_SPACE_ENTRY",
+    "issued_to": "Suresh Rao",
+    "start_time": "09:00",
+    "end_time": "12:00",
+    "status": "ACTIVE",
+    "supervisor": "K. Prasad"
+  },
+  {
+    "permit_id": "PTW-2026-003",
+    "zone": "Zone-C-Storage",
+    "work_type": "ELECTRICAL_ISOLATION",
+    "issued_to": "Manoj Singh",
+    "start_time": "10:00",
+    "end_time": "16:00",
+    "status": "ACTIVE",
+    "supervisor": "T. Reddy"
+  },
+  {
+    "permit_id": "PTW-2026-004",
+    "zone": "Zone-D-Maintenance",
+    "work_type": "COLD_WORK",
+    "issued_to": "Anil Verma",
+    "start_time": "07:30",
+    "end_time": "13:00",
+    "status": "CLOSED",
+    "supervisor": "M. Sharma"
+  }
+]

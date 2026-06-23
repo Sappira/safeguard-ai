@@ -1,0 +1,46 @@
+[
+  {
+    "shift_id": "SH-2026-A1",
+    "zone": "Zone-A-Coke-Oven",
+    "shift": "Morning",
+    "start_time": "06:00",
+    "end_time": "14:00",
+    "workers_present": 12,
+    "supervisor_on_site": true,
+    "changeover_in_progress": true,
+    "notes": "Shift handover underway, incoming team not yet briefed"
+  },
+  {
+    "shift_id": "SH-2026-B1",
+    "zone": "Zone-B-Blast-Furnace",
+    "shift": "Morning",
+    "start_time": "06:00",
+    "end_time": "14:00",
+    "workers_present": 8,
+    "supervisor_on_site": true,
+    "changeover_in_progress": false,
+    "notes": "Normal operations"
+  },
+  {
+    "shift_id": "SH-2026-C1",
+    "zone": "Zone-C-Storage",
+    "shift": "Morning",
+    "start_time": "06:00",
+    "end_time": "14:00",
+    "workers_present": 5,
+    "supervisor_on_site": false,
+    "changeover_in_progress": false,
+    "notes": "Supervisor on break"
+  },
+  {
+    "shift_id": "SH-2026-D1",
+    "zone": "Zone-D-Maintenance",
+    "shift": "Morning",
+    "start_time": "06:00",
+    "end_time": "14:00",
+    "workers_present": 6,
+    "supervisor_on_site": true,
+    "changeover_in_progress": false,
+    "notes": "Routine maintenance checks"
+  }
+]

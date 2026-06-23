@@ -1,0 +1,15 @@
+Incident Report 1 - Coke Oven Battery Explosion, Visakhapatnam Steel Plant, January 2025
+
+Eight workers died when entrapped gases ignited in the coke oven battery. Post-incident investigation revealed gas pressure sensors had been recording elevated readings for 47 minutes prior to the explosion. An active maintenance permit was in place for the same zone. A shift changeover was underway at the time, resulting in reduced supervision and incomplete hazard communication between outgoing and incoming teams. No automated system existed to correlate the three simultaneous conditions. Recommendation: Implement compound risk detection that triggers mandatory evacuation when gas readings exceed 50% LEL during any active work permit regardless of permit type.
+
+Incident Report 2 - Confined Space Fatality, Rourkela Steel Plant, March 2024
+
+One worker died from oxygen deficiency during a confined space inspection. Pre-entry oxygen reading was 20.1% and within acceptable limits. However, a nitrogen purge operation was underway 30 metres away in an adjacent pipe system. Oxygen levels dropped to 16% within 8 minutes of the worker entering the confined space. No continuous monitoring was in place. Recommendation: Confined space entry permits must require continuous atmospheric monitoring throughout the duration of work, not just pre-entry testing.
+
+Incident Report 3 - Gas Leak During Permit Handover, Bhilai Steel Plant, August 2023
+
+Three workers sustained injuries when a gas leak went undetected for 22 minutes during a permit-to-work handover between outgoing and incoming maintenance teams. The outgoing team had noted a minor gas reading of 18% LEL in their shift log but did not formally communicate this to the incoming team before leaving site. By the time the incoming team detected the leak, levels had risen to 74% LEL. Recommendation: Permit handover must include a mandatory verbal and written briefing on all active sensor readings. No permit handover to be considered complete if any sensor in the zone reads above 15% LEL.
+
+Near Miss Report 1 - Hot Work Near Gas Accumulation, Tata Steel Jamshedpur, November 2024
+
+A welder was preparing to begin hot work in Zone 7 when a safety officer noticed the gas detector in the adjacent storage bay reading 38% LEL. The hot work permit had been issued 90 minutes earlier when readings were at 8% LEL. Gas levels had risen gradually due to a minor flange leak discovered during the 90-minute window. No alert had been generated because neither the gas reading alone nor the permit alone exceeded their individual thresholds. Action Taken: Hot work permit suspended, area evacuated, flange repaired. Lessons Learned: Permit systems must integrate with live sensor data to automatically suspend hot work permits when gas levels rise above 25% LEL in the vicinity of the permitted work area.

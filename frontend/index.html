@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SafeGuard AI — Industrial Safety Intelligence</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="brand">
+      <span class="brand-icon">⚠</span>
+      <span class="brand-name">SafeGuard AI</span>
+      <span class="brand-sub">Industrial Safety Intelligence</span>
+    </div>
+    <div class="header-actions">
+      <button id="btn-normal" onclick="loadRisk(null)">Normal Scan</button>
+      <button id="btn-demo" class="btn-danger" onclick="loadRisk('Zone-A-Coke-Oven')">Simulate Critical</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="summary-row" id="summary-row">
+    <div class="summary-card" id="card-critical">
+      <div class="summary-number" id="count-critical">—</div>
+      <div class="summary-label">Critical Zones</div>
+    </div>
+    <div class="summary-card" id="card-warning">
+      <div class="summary-number" id="count-warning">—</div>
+      <div class="summary-label">Warning Zones</div>
+    </div>
+    <div class="summary-card" id="card-safe">
+      <div class="summary-number" id="count-safe">—</div>
+      <div class="summary-label">Safe Zones</div>
+    </div>
+    <div class="summary-card">
+      <div class="summary-number" id="last-scan">—</div>
+      <div class="summary-label">Last Scan</div>
+    </div>
+  </section>
+
+  <section class="two-col">
+    <div class="panel">
+      <div class="panel-header">
+        <span>Zone Risk Dashboard</span>
+        <button class="refresh-btn" onclick="loadRisk(window._lastMode)">↻ Refresh</button>
+      </div>
+      <div id="zone-cards">
+        <div class="loading-msg">Click a scan button above to start.</div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-header">Safety Copilot</div>
+      <div id="chat-window">
+        <div class="chat-msg bot-msg">Hello. Ask me anything about OISD regulations, confined space entry rules, or permit requirements.</div>
+      </div>
+      <div class="chat-input-row">
+        <input type="text" id="chat-input" placeholder="e.g. What is the safe oxygen level for confined space entry?" onkeydown="if(event.key==='Enter') sendQuery()">
+        <button onclick="sendQuery()">Ask</button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
