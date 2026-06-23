@@ -1,4 +1,4 @@
-# SafeGuard AI — Industrial Safety Intelligence Platform
+# SafeGuard AI - Industrial Safety Intelligence Platform
 
 An AI-powered safety platform that detects compound risk conditions in heavy industrial environments before they escalate into fatalities.
 
@@ -8,9 +8,9 @@ India recorded 6,500+ fatal workplace accidents in FY2023. Existing safety syste
 ## Solution
 SafeGuard AI fuses simulated IoT sensor data, permit-to-work logs, and shift records into three AI agents:
 
-- Compound Risk Detection Engine — flags dangerous combinations
-- Safety Copilot — answers regulatory queries using RAG
-- Permit Intelligence Agent — cross-checks permits vs live conditions
+- Compound Risk Detection Engine - flags dangerous combinations
+- Safety Copilot - answers regulatory queries using RAG
+- Permit Intelligence Agent - cross-checks permits vs live conditions
 
 ## Setup Instructions
 
@@ -35,4 +35,4 @@ Open frontend/index.html in your browser
 - JSON (mock data simulation)
 
 ## Built For
-ET AI Hackathon 2.0 — Problem Statement 1 — Industrial Safety Intelligence
+ET AI Hackathon 2.0 - Problem Statement 1 - Industrial Safety Intelligence
